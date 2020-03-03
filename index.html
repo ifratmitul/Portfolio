@@ -48,9 +48,20 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	<script>
+		function UnderDev(){
+			alert('Work and Skill section is still under development. This is not the Final Build of the site')
+		}
+		function UnderDev1(){
+			alert('This Section is under development.')
+		}
+		function clickHandler () {
+			alert ('CV not available at this Moment. It will be available soon ');
+		}
+	</script>
 	</head>
-	<body>
+
+	<body onload="UnderDev()">
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
@@ -58,7 +69,7 @@
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/propic.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Ifrat Ikhtear Uddin (Mitul)</a></h1>
-				<span class="position"><a href="#">Full stack Developer</a> in Bangladesh </span>
+				<span class="position"><a href="#">Computer Science studnet</a> at North South University, Bangladesh </span>
 
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
@@ -70,7 +81,8 @@
 						<li><a href="#" data-nav-section="skills">Skills</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
+						<li><a href="#" data-nav-section="#" onclick="UnderDev1()">Recent Work</a></li>
+
 
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
@@ -94,11 +106,19 @@
 							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="col-md-12">
 									<div class="about-desc">
-										<span class="heading-meta">About Me 										<p style = "float : right"><a  class="btn btn-info btn-learn">Download CV <i class="icon-download4"></i></a></p></span>
+										<span class="heading-meta">About Me 										<p style = "float : right"><a  class="btn btn-info btn-learn" onClick = clickHandler()>Download CV <i class="icon-download4"></i></a></p></span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
 
-										<p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+										<p><strong>Hi I'm Ifrat</strong>,I graduated from North South University with a Computer Science degree.
+											Learning new Programming Language and Framework is like fun & exciting activity to me.
+											whenever I'm learning something new I feel like I'm solving a mystery. I love developing software, web applications are my favorite since I spent most of the time with my laptop and not with my Phone.  
+											
+										</p>
+										<p> Every day I'm trying to learn something new and its not just programming related stuff, I read a huge amount of articles from many different categories like psychological, social science, environment, personal growth, etc. Nowadays I'm trying to learn a lot about ML and AI-related stuff by checking out different Books and Online Tutorials. 
+										
+ In my free time I play video games, FIFA, Battlefield, and Witcher are few of my favorite video games series. 
+                   
+										</p>
 									</div>
 								</div>
 							</div>
@@ -165,7 +185,7 @@
 								</span>
 								<div class="desc">
 									<h3>Innovative Ideas</h3>
-									<p>In projects we always ran into different type of problem and there may or may not have solution on the internet. If it's something new I'm great to come up with new solution, even if there are exisiting solution i use whatever is best suited for my project. </p>
+									<p>I'm grate at finding ways to solve problems </p>
 								</div>
 							</div>
 						</div>
@@ -177,8 +197,7 @@
 								<div class="desc">
 									<h3>Leadership</h3>
 									<p>
-										Leadership is one of my interpersonal skills. I would like to say that I'm very good as a team leader, during my 4 years of bachelor degree I worked on more than 10+ projects and in most of them, I was the team leader. The way I managed my team, I think my team members deliver more than what they expect of them!	 
-									</p>
+										Leadership is one of my interpersonal skills. I would like to say that I'm very good as a team leader. Every project I did as a team leader,  I think I pushed my fellow team members enough to deliver more than what they think they could do. </p>
 								</div>
 							</div>
 						</div>
@@ -198,16 +217,14 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>These are few of the Language/Framework I've mostly worked with.</p>
-						</div>
+
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
 								<h3>Java</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
+								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
 								  	</div>
 								</div>
 							</div>
@@ -267,7 +284,28 @@
 								</div>
 							</div>
 						</div>
-
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>React.Js</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    <span>50%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>NodeJs</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    <span>50%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
 								<h3>PHP</h3>
@@ -375,6 +413,7 @@
 				   </div>
 				</div>
 			</section>
+
 
 			<section class="colorlib-work" data-section="work">
 				<div class="colorlib-narrow-content">
@@ -489,6 +528,8 @@
 				</div>
 			</section>
 
+
+		
 			
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
@@ -514,7 +555,7 @@
 									<i class="icon-map"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+									<p><a class="btn btn-primary btn-learn" onClick = clickHandler()>Download CV <i class="icon-download4"></i></a></p>
 								</div>
 							</div>
 
