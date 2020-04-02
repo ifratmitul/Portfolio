@@ -946,11 +946,14 @@ body.offcanvas {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s; }
+
     .project .desc .con {
       padding: 20px;
       display: block;
       position: relative;
       height: 300px; }
+         
+      
       .project .desc .con .icon {
         position: absolute;
         bottom: 20px;
@@ -989,6 +992,7 @@ body.offcanvas {
         color: #fff; }
     .project .desc span {
       display: block;
+
       color: rgba(255, 255, 255, 0.7);
       font-size: 13px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1020,7 +1024,8 @@ body.offcanvas {
       transform: translate3d(0, 0, 0); }
     .project:hover .desc span {
       -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 0); 
+    }
 
 .btn-load-more {
   width: 100%; }
